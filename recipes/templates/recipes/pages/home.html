@@ -6,18 +6,13 @@
 
     <main class="main-content-container">
         <div class="main-content main-content-list container">
-            <div class=" recipes recipes-list-item">
-                <div class="recipes-cover">
-                    <img src="https://via.placeholder.com/1288x720.png/269fe6" alt="temporario">
-                    <div class="recipes-title-container">
-                        <h2 class="recipes-title">lorem ipsum dolor sit amet</h2>
-                    </div>
-
-                </div>
-            </div>
+            {% include 'recipes/partials/recipes.html' %}
+            {% include 'recipes/partials/recipes.html' %}
+            {% include 'recipes/partials/recipes.html' %}
         </div>
 
     </main>
+    {%include 'recipes/partials/footer.html' %}
 
 </body>
 
